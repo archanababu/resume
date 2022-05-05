@@ -7,6 +7,10 @@
         public $subject;
         public $ajax;
         public $add_message;
+
+        function __construct(){
+
+        }
     
     
         function send() {
