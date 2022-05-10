@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,12 +7,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #d65f1a;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #d65f1a;
   text-decoration: none;
 }
 
@@ -37,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #d65f1a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #2eafec;
+  background: #d65f1a;
   color: #fff;
 }
 .back-to-top.active {
@@ -107,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #d65f1a;
   color: #fff;
   text-decoration: none;
 }
@@ -160,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #d65f1a;
 }
 
 /* Mobile Navigation */
@@ -196,10 +189,10 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  margin: 0 0 10px 0;
+  /* margin: 0 0 10px 0; */
   width: 100%;
   height: 100vh;
-  background: url("../img/mountain.jpg") top left;
+  background: url("../img/mountain.jpg") top center;
   background-size: cover;
 }
 #hero:before {
@@ -213,8 +206,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
   /* width: 100%; */
   /* height: 75px; */
-  z-index: 1000;
-  background: linear-gradient(transparent, rgb(186, 186, 186));
+  /* z-index: 1000; */
+  /* background: linear-gradient(transparent, rgb(186, 186, 186)); */
 }
 #hero .hero-container {
   position: relative;
