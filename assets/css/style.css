@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/mountain.jpg") top left;
   background-size: cover;
 }
 #hero:before {
@@ -210,30 +210,35 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
+  /* width: 100%; */
+  /* height: 75px; */
+  z-index: 1000;
+  background: linear-gradient(transparent, rgb(186, 186, 186));
 }
 #hero .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  
 }
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 500px 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #031226;
 }
 #hero p {
-  color: #fff;
+  color: rgb(73, 73, 73);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #fff;
+  color: rgb(74, 74, 74);
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #094a68;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -252,6 +257,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#top-cloud {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  z-index: 9;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 70%;
+  z-index: 10;
+}
 /*--------------------------------------------------------------
 # Hero section - bubbles
 --------------------------------------------------------------*/
@@ -460,7 +478,7 @@ section {
 
 /*btn-primary*/
 .btn-primary{
-  background-color:#1f5297;
+  background-color:#d65f1a;
   border-color: rgba(51, 51, 51, 0.15);
 }
 
@@ -471,13 +489,16 @@ section {
 .btn-primary.active, 
 .open>.dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #173b6c;
-  border-color: #173b6c;
+  /* background-color: #173b6c; */  
+  /* border-color: #173b6c; */
+  background: #d65f1a;
+  background-image: linear-gradient(to bottom, #d65f1a, #ba4f1a);
 }
 
 /*btn-info*/
 .btn-info{
-  background-color:#37b3ed;
+  /* background-color:#37b3ed; */
+  background: #0ca8ad;
   border-color: rgba(51, 51, 51, 0.15);
 }
 
@@ -488,8 +509,10 @@ section {
 .btn-info.active, 
 .open>.dropdown-toggle.btn-info {
   color: #fff;
-  background-color: #149ddd;
-  border-color: #149ddd;
+  background: #0ca8ad;
+  background-image: linear-gradient(to bottom, #0ca8ad, #07777b);
+  /* background-color: #149ddd; */
+  /* border-color: #149ddd; */
 }
 
 /*btn-default*/
