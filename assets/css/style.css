@@ -320,6 +320,98 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Download
+--------------------------------------------------------------*/
+
+.download-button a {
+  margin-right: 20px;
+  color: #fff;
+}
+.download-button a i {
+  margin-right: 10px;
+}
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+
+/*common-btn*/
+.btn{
+  border: 0;
+  border-bottom: 3px solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 28px;
+  padding: 9px 22px;
+}
+
+/*large-btn*/
+.btn-lg, 
+.btn-group-lg>.btn {
+  padding: 14px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+/*btn-primary*/
+.btn-primary{
+  background-color:#1f5297;
+  border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary.focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #173b6c;
+  border-color: #173b6c;
+}
+
+/*btn-info*/
+.btn-info{
+  background-color:#37b3ed;
+  border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-info:hover, 
+.btn-info:focus, 
+.btn-info.focus, 
+.btn-info:active, 
+.btn-info.active, 
+.open>.dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #149ddd;
+  border-color: #149ddd;
+}
+
+/*btn-default*/
+.btn-default {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default.focus, 
+.btn-default:active, 
+.btn-default.active{
+  color: #173b6c;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+button:focus {
+  outline: none;
+}
+
+
+
+
+/*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
 .facts {
@@ -365,7 +457,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
