@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #d65f1a;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -402,9 +402,9 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 80px;
   height: 3px;
-  background: #149ddd;
+  background: #d65f1a;
   bottom: 0;
   left: 0;
 }
@@ -489,8 +489,8 @@ section {
 .btn-primary.active, 
 .open>.dropdown-toggle.btn-primary {
   color: #fff;
-  /* background-color: #173b6c; */  
-  /* border-color: #173b6c; */
+  background-color: #ba4f1a;  
+  border-color: #ba4f1a;
   background: #d65f1a;
   background-image: linear-gradient(to bottom, #d65f1a, #ba4f1a);
 }
@@ -511,8 +511,8 @@ section {
   color: #fff;
   background: #0ca8ad;
   background-image: linear-gradient(to bottom, #0ca8ad, #07777b);
-  /* background-color: #149ddd; */
-  /* border-color: #149ddd; */
+  background-color: #07777b;
+  border-color: #07777b;
 }
 
 /*btn-default*/
@@ -526,7 +526,7 @@ section {
 .btn-default.focus, 
 .btn-default:active, 
 .btn-default.active{
-  color: #173b6c;
+  color: #07777b;
   background-color: #fff;
   border-color: #fff;
 }
@@ -614,7 +614,8 @@ button:focus {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  /* background-color: #149ddd; */
+  background-image: linear-gradient(to right, #5cd6da, #07777b);
 }
 
 /*--------------------------------------------------------------
