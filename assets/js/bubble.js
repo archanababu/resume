@@ -24,7 +24,7 @@
     //     layer3.style.top = (55 + scroll/30) + '%';
     // });
     // }
-    else{
+    // else{
     var layer1 = document.getElementById('bottom-cloud')
     scroll = window.pageYOffset;
     document.addEventListener('scroll', function(e){
@@ -50,7 +50,8 @@
         layer3.style.top = (41 + scroll/10) + '%';
     });
     }
-})()
+// }
+)()
 // if (matchMedia) {
 //     const x = window.matchMedia("(max-width: 768px)");
 //     x.addListener(myFunction);
