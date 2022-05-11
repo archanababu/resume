@@ -222,6 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #031226;
+  text-shadow: 2px 2px 4px #00000065;
 }
 #hero p {
   color: #d65f1a;
@@ -940,6 +941,47 @@ button:focus {
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
+}
+
+/*--------------------------------------------------------------
+# Awards
+--------------------------------------------------------------*/
+.awards .awards-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+.awards .awards-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #5cd6da;
+  position: relative;
+}
+.awards .awards-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #173b6c;
+  margin-bottom: 10px;
+}
+
+.awards .awards-item:last-child {
+  padding-bottom: 0;
+}
+.awards .awards-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #5cd6da;
 }
 
 /*--------------------------------------------------------------
