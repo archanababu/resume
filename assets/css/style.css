@@ -224,13 +224,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #031226;
 }
 #hero p {
-  color: rgb(73, 73, 73);
+  color: #d65f1a;
+  text-shadow: 2px 2px 4px #00000065;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: rgb(74, 74, 74);
+  color: #d65f1a;
+  text-shadow: 2px 2px 4px #00000065;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #094a68;
@@ -582,6 +584,12 @@ button:focus {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+
+.skills p{
+  font-family: "Open Sans", sans-serif;
+  color: #d65f1a;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
