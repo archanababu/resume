@@ -52,7 +52,7 @@ function myFunction(x){
     }
 }
 if (matchMedia) {
-    const x = window.matchMedia("(max-width: 1050px)");
+    const x = window.matchMedia("(max-width: 768px)");
     x.addListener(myFunction);
     myFunction(x);
 }
